@@ -17,7 +17,9 @@ var nav_link = document.getElementsById("navlink");
 
 function showmenu(){
     navlink.style.right = "0";
+    navlink.style.display="block";
 }
 function hidemenu(){
     navlink.style.right = "-200px";
+    navlink.style.display="none";
 }
