@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Techy Software</title>
+    <!-- Include CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <!-- Navbar -->
+    <nav>
+        <div class="logo">
+            Techy Software
+            </div>
+            <div class="nav-link" id="navlink">
+                <i class="fa fa-times" onclick="hidemenu()"></i>
+        <ul>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Us</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact Us</a></li>
+        </ul>
+    </div>
+    <i class="fa fa-bars" onclick="showmenu()"></i>
+
+    </nav>
+
+    <!-- Home Section -->
+    <section id="home">
+        <div class="container one">
+            <h1>Techy Software</h1>
+            <!-- Add gradient background using CSS -->
+            <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Cupiditate explicabo fuga voluptatem itaque delectus facilis nulla repudiandae aperiam, ducimus iure, laudantium libero repellat omnis molestiae ea odio?</p>
+            <a href="" class="visit-btn">Visit Us To Know More</a>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about">
+        <div class="container two">
+            <div class="about-content">
+                <div class="about-image">
+                    <img src="img/download5.jpg" alt="About Us Image">
+                </div>
+                <div class="about-text">
+                    <h2>About Us</h2>
+                    <p>At Techy Software, we are dedicated to delivering innovative software solutions that help businesses thrive in the digital world. Our team of experienced developers and designers work tirelessly to bring your ideas to life, ensuring that each project is tailored to meet your unique needs and requirements. With a focus on quality, reliability, and customer satisfaction, we strive to exceed your expectations and build long-term partnerships.</p>
+                </div>
+            </div>
+    </div> 
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services">
+        <div class="container three">
+            <h2>Our Services</h2>
+            <div class="services-grid">
+                <div class="service">
+                    <img src="img/download6.jpg" alt="Custom Software Development">
+                    <h3>Custom Software Development</h3>
+                    <p>We create tailor-made software solutions to meet your unique business needs.</p>
+                </div>
+                <div class="service">
+                    <img src="img/download7.png" alt="Web Application Development">
+                    <h3>Web Application Development</h3>
+                    <p>Build powerful web applications to enhance your online presence.</p>
+                </div>
+                <!-- Add more service items as needed -->
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact">
+        <div class="container">
+            <h2>Contact Us</h2>
+            <p>Have a project in mind? Let's discuss how we can help.</p>
+        <form id="feedback-form" action="form.php" method="post" >
+            <input type="text" placeholder="Name" name="name" required>
+            <input type="text" placeholder="Number" name="number" required>
+            <input type="email" placeholder="Email" name="mail" required>
+            <textarea placeholder="Message" name="message" required></textarea>
+            <button type="submit">Submit</button>
+        </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>Follow us on social media 
+            <a href="#">
+                <i class="fa fa-facebook-official" aria-hidden="true"></i>
+                </a>
+            <a href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+            <a href="#"><i class="fa fa-instagram" aria-hidden="true"></i></a>
+        </p>
+    </footer>
+
+    <!-- Include JavaScript for interactive features -->
+    <script src="script.js"></script>
+</body>
+</html>
